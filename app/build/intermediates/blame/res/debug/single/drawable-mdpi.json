@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\apanoo.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\apanoo.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_shape_1.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\ic_shape_1.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pasword.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\pasword.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\defaultprofile.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\defaultprofile.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\back.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\profile.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_tool_6.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\ic_tool_6.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\user.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\user.png"
+    }
+]
