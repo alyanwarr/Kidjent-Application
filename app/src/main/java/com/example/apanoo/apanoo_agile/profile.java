@@ -52,7 +52,10 @@ public class profile extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    finish();
+                Intent it = new Intent(profile.this,welcome.class);
+                it.putExtra("Users", user);
+                startActivity(it);
+                finish();
             }
         });
         //=========================================================================
@@ -69,6 +72,15 @@ public class profile extends AppCompatActivity {
         }
         propic.setImageURI(Uri.parse(user.getProfilepic()));
         //=========================================================================
+    }
+    @Override
+    public void onBackPressed()
+    {
+        super.onBackPressed();
+        Intent it = new Intent(profile.this,welcome.class);
+        it.putExtra("Users", user);
+        startActivity(it);
+        finish();
     }
     @Override
     protected void onStart(){

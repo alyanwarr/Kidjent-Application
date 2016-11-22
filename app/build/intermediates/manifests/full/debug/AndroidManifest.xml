@@ -32,6 +32,7 @@
         <activity android:name="com.example.apanoo.apanoo_agile.welcome" />
         <activity android:name="com.example.apanoo.apanoo_agile.imagechoose" />
         <activity android:name="com.example.apanoo.apanoo_agile.profile" />
+        <activity android:name="com.example.apanoo.apanoo_agile.categories" />
     </application>
 
 </manifest>

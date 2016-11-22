@@ -39,15 +39,18 @@ public class welcome extends AppCompatActivity {
                 Intent it = new Intent(welcome.this,profile.class);
                 it.putExtra("Users", user);
                 startActivity(it);
+                finish();
             }
         });
-       /* play.setOnClickListener(new View.OnClickListener() {
+        play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(welcome.this,signin.class);
+                Intent it = new Intent(welcome.this,categories.class);
+                it.putExtra("Users", user);
                 startActivity(it);
+                finish();
             }
-        });*/
+        });
 
     }
     @Override

@@ -23,6 +23,7 @@
         <activity android:name=".welcome"></activity>
         <activity android:name=".imagechoose"></activity>
         <activity android:name=".profile"></activity>
+        <activity android:name=".categories"></activity>
     </application>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 </manifest>

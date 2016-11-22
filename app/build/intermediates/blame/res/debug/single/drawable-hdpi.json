@@ -34,5 +34,9 @@
     {
         "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logol.png",
         "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-hdpi\\logol.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\categories.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-hdpi\\categories.png"
     }
 ]

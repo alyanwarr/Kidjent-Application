@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\categories.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-xxhdpi\\categories.png"
+    },
+    {
         "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_tool_6.png",
         "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\drawable-xxhdpi\\ic_tool_6.png"
     },

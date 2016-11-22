@@ -32,7 +32,6 @@ public class main extends AppCompatActivity {
                 Intent it = new Intent(main.this,signup.class);
                 finish();
                 startActivity(it);
-
             }
         });
         signin.setOnClickListener(new View.OnClickListener() {

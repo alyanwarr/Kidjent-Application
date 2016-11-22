@@ -50,7 +50,6 @@ public class signup extends AppCompatActivity {
             public void onFocusChange(View view, boolean b) {
                 if(b){
                     hidden = false ;
-                    System.out.println("Hidden = "+hidden);
                 }
             }
         });
@@ -149,6 +148,9 @@ public class signup extends AppCompatActivity {
             hide();
         }else{
             super.onBackPressed();
+            Intent it = new Intent(signup.this,main.class);
+            finish();
+            startActivity(it);
         }
     }
     private void edits(){

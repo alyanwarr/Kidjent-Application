@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:3:5-46
 		INJECTED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\s
 		INJECTED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
@@ -75,10 +75,14 @@ activity#com.example.apanoo.apanoo_agile.profile
 ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:25:9-54
 	android:name
 		ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:25:19-42
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:27:5-96
+activity#com.example.apanoo.apanoo_agile.categories
+ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:26:9-57
 	android:name
-		ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:27:22-77
+		ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:26:19-45
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:28:5-96
+	android:name
+		ADDED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml:28:22-77
 uses-sdk
 INJECTED from C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\AndroidManifest.xml:21:5-23:78

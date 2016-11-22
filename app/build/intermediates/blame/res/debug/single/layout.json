@@ -8,6 +8,10 @@
         "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\layout\\profile.xml"
     },
     {
+        "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\layout\\categories.xml",
+        "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\src\\main\\res\\layout\\categories.xml"
+    },
+    {
         "merged": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_custom.xml"
     },

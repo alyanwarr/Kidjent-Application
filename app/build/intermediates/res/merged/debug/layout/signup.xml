@@ -149,7 +149,6 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/apanoo"
             android:id="@+id/imageView3"
-            android:layout_alignBottom="@+id/imageView4"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="250dp" />
     </RelativeLayout>

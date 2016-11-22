@@ -100,6 +100,9 @@ public class signin extends AppCompatActivity {
             hide();
         }else{
             super.onBackPressed();
+            Intent it = new Intent(signin.this,main.class);
+            finish();
+            startActivity(it);
         }
     }
     private void edits(){
