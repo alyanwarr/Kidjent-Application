@@ -14,8 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54018ca8-885e-4677-87c5-1522126cd863" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GitHub/APANOO-Agile/app/src/main/res/drawable-hdpi/categories.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GitHub/APANOO-Agile/app/src/main/res/drawable-mdpi/categories.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GitHub/APANOO-Agile/app/src/main/res/drawable-xhdpi/categories.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apanoo/apanoo_agile/categories.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/categories.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../GitHub/APANOO-Agile/app/src/main/java/com/example/apanoo/apanoo_agile/categories.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apanoo/apanoo_agile/main.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apanoo/apanoo_agile/main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apanoo/apanoo_agile/profile.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apanoo/apanoo_agile/profile.java" />
@@ -111,7 +115,7 @@
       <file leaf-file-name="signin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apanoo/apanoo_agile/signin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
+            <state relative-caret-position="132">
               <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
               <folding />
             </state>
@@ -2784,7 +2788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apanoo/apanoo_agile/signin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
+        <state relative-caret-position="132">
           <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
           <folding />
         </state>
