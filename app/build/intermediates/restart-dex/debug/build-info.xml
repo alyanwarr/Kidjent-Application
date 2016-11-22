@@ -5,29 +5,29 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="11537046799716"
+    timestamp="31714605439930"
     token="-3695733709191206226"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="697" />
+        duration="345" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="355" />
+        duration="1417" />
     <task
         name="verifier"
-        duration="914" />
+        duration="986" />
 
     <artifact
         location="C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="11537046799716"
+        timestamp="31714605439930"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\outputs\apk\app-debug.apk"

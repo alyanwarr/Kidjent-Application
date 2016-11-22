@@ -113,7 +113,6 @@
                 android:layout_height="wrap_content"
                 android:hint="Confirm Password"
                 android:textColorHint="#ADCCE2"
-                android:maxLength="12"
                 android:layout_marginLeft="22dp"
                 android:inputType="textPassword"
                 android:textColor="#ADCCE2"

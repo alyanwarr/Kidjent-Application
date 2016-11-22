@@ -89,8 +89,8 @@ public class signup extends AppCompatActivity {
                 String strpassword = password.getText().toString();
                 String strconfirmpassword = confpass.getText().toString();
                 String stremail= email.getText().toString();
-                if(!strusername.matches("^[a-z0-9_-]{3,15}$")){
-                    Toast WrongUsername = Toast.makeText(signup.this,"Username Must contain only letters,numbers and _,- ", Toast.LENGTH_SHORT);
+                if(!strusername.matches("^[a-zA-Z0-9_-]{3,15}$")){
+                    Toast WrongUsername = Toast.makeText(signup.this,"Username Must be of 3 minimum characters and contain only letters,numbers and _,- ", Toast.LENGTH_SHORT);
                     WrongUsername.show();
                 }/*
              else if(!password.matches(" ")){
@@ -99,6 +99,10 @@ public class signup extends AppCompatActivity {
             */
                 else if(strpassword.length()<4){
                     Toast PassLength = Toast.makeText(signup.this,"Password must be minimum of 4 characters", Toast.LENGTH_SHORT);
+                    PassLength.show();
+                }
+                else if(strpassword.length()>16){
+                    Toast PassLength = Toast.makeText(signup.this,"Password must be maximum of 16 characters", Toast.LENGTH_SHORT);
                     PassLength.show();
                 }
                 else if(!strpassword.equals(strconfirmpassword)){
