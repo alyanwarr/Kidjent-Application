@@ -1,0 +1,7 @@
+#Tue Nov 22 11:20:10 EET 2016
+base.0=C\:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6c4cae7c4c5975208e13c24a509cded72dda1838
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8fc4c08919fad82d6bd2c884ed78245363459fcf\\classes.dex
+base.1=C\:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_8fc4c08919fad82d6bd2c884ed78245363459fcf
+file.0=C\:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6c4cae7c4c5975208e13c24a509cded72dda1838\\classes.dex
