@@ -17,21 +17,27 @@ import customfonts.MyTextView;
 
 public class welcome extends AppCompatActivity {
     private MyTextView play;
+    private Users user;
     private LinearLayout profile;
+    private MyTextView welcusername;
     private View mContentView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         edits();
         setContentView(R.layout.welcome);
+        user=(Users)getIntent().getParcelableExtra("Users");
+        welcusername=(MyTextView)findViewById(R.id.welcomeusername);
+        welcusername.setText(user.getUname());
         mContentView = findViewById(R.id.fullscreen_content);
         hide();
         profile = (LinearLayout)findViewById(R.id.profile);
         play = (MyTextView) findViewById(R.id.play);
-       profile.setOnClickListener(new View.OnClickListener() {
+        profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(welcome.this,profile.class);
+                it.putExtra("Users", user);
                 startActivity(it);
             }
         });

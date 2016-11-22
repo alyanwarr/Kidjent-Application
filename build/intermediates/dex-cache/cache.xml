@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e6c858edea64152158e5a79ed79f5a9e4a446b44">
+        sha1="cdca5387d133fb818335e928afcc5d8cd82fbc03">
         <dex dex="C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_6c4cae7c4c5975208e13c24a509cded72dda1838\classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3654b386df0c2a8a93f883416aeebb199d755916">
+        sha1="cd861647d9ca5da5fc29690b01cae77af3162f29">
         <dex dex="C:\Users\omar_adel\Documents\AndroidStudioProjects\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8fc4c08919fad82d6bd2c884ed78245363459fcf\classes.dex" />
     </item>
     <item

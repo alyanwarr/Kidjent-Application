@@ -67,7 +67,7 @@
 
             </FrameLayout>
             <customfonts.MyTextView
-                android:id="@+id/start"
+                android:id="@+id/welcomeusername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="User"

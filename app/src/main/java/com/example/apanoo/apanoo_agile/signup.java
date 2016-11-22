@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.View.OnFocusChangeListener;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import customfonts.MyEditText;
 import customfonts.MyTextView;
@@ -18,6 +19,7 @@ import customfonts.MyTextView;
  */
 
 public class signup extends AppCompatActivity {
+    private DatabaseHelper helper = new DatabaseHelper(this);
     private ImageView signupback;
     private MyEditText username;
     private MyEditText  email;
@@ -83,9 +85,56 @@ public class signup extends AppCompatActivity {
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(signup.this,imagechoose.class);
-                finish();
-                startActivity(it);
+                //===========================================
+                String strusername = username.getText().toString();
+                String strpassword = password.getText().toString();
+                String strconfirmpassword = confpass.getText().toString();
+                String stremail= email.getText().toString();
+                if(!strusername.matches("^[a-z0-9_-]{3,15}$")){
+                    Toast WrongUsername = Toast.makeText(signup.this,"Username Must contain only letters,numbers and _,- ", Toast.LENGTH_SHORT);
+                    WrongUsername.show();
+                }/*
+             else if(!password.matches(" ")){
+                Toast WrongUsername = Toast.makeText(SignUp.this,"^{4,16}$", Toast.LENGTH_SHORT);
+                WrongUsername.show();
+            */
+                else if(strpassword.length()<4){
+                    Toast PassLength = Toast.makeText(signup.this,"Password must be minimum of 4 characters", Toast.LENGTH_SHORT);
+                    PassLength.show();
+                }
+                else if(!strpassword.equals(strconfirmpassword)){
+                    //popup
+                    Toast PassMissmatch = Toast.makeText(signup.this,"Password and confirm password are not matching", Toast.LENGTH_SHORT);
+                    PassMissmatch.show();
+
+                }
+                else if (helper.UserNameExist(strusername)){
+                    Toast UsernameTaken = Toast.makeText(signup.this,"Username already taken,try another", Toast.LENGTH_SHORT);
+                    UsernameTaken.show();
+                }
+                else if (helper.EmailExist(stremail)){
+                    Toast EmailTaken = Toast.makeText(signup.this,"This e-mail is used by an other account", Toast.LENGTH_SHORT);
+                    EmailTaken.show();
+                }
+                else if (!android.util.Patterns.EMAIL_ADDRESS.matcher(stremail).matches()){
+                    Toast InvalidEmail = Toast.makeText(signup.this,"Please enter a valid email", Toast.LENGTH_SHORT);
+                    InvalidEmail.show();
+                }
+                else
+                {
+                    //insert details in DB
+                    Users c = new Users();
+                    c.setUname(strusername);
+                    c.setEmail(stremail);
+                    c.setPass(strpassword);
+                    helper.insertUser(c);
+                    c.setProfilepic(helper.GetColumn(strusername,"ProfilePic"));
+                    //===========================================
+                    Intent it = new Intent(signup.this,imagechoose.class);
+                    it.putExtra("Users", c);
+                    finish();
+                    startActivity(it);
+                }
             }
         });
     }

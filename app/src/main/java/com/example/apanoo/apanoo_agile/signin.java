@@ -7,7 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import customfonts.MyEditText;
 import customfonts.MyTextView;
@@ -17,6 +19,7 @@ import customfonts.MyTextView;
  */
 
 public class signin extends AppCompatActivity {
+    private DatabaseHelper helper = new DatabaseHelper(this);
     private ImageView signinback;
     private View mContentView;
     private MyEditText  username;
@@ -34,9 +37,28 @@ public class signin extends AppCompatActivity {
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(signin.this,welcome.class);
-                finish();
-                startActivity(it);
+                //========================================================
+                MyEditText usrnm = (MyEditText)findViewById(R.id.INusername);
+                String username = usrnm.getText().toString();
+                MyEditText pswrd = (MyEditText)findViewById(R.id.INpassword);
+                String pass = pswrd.getText().toString();
+
+                String password = helper.searchPass(username);
+                if(pass.equals(password))
+                {
+                    Users user=new Users();
+                    user.setUname(helper.GetColumn(username,"Username"));
+                    user.setProfilepic(helper.GetColumn(user.getUname(),"ProfilePic"));
+                    Intent i = new Intent(signin.this,welcome.class);
+                    i.putExtra("Users", user);
+                    startActivity(i);
+                    finish();
+                }
+                else {
+                    Toast errorlog = Toast.makeText(signin.this,"Username and Password not matching!", Toast.LENGTH_SHORT);
+                    errorlog.show();
+                }
+                //========================================================================
             }
         });
         signinback = (ImageView)findViewById(R.id.signinback);

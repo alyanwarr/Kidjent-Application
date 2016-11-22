@@ -1,4 +1,4 @@
-#Mon Nov 21 21:18:37 EET 2016
+#Tue Nov 22 02:25:59 EET 2016
 base.0=C\:\\Users\\omar_adel\\Documents\\AndroidStudioProjects\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_6c4cae7c4c5975208e13c24a509cded72dda1838
 renamed.1=classes2.dex
 renamed.0=classes.dex
