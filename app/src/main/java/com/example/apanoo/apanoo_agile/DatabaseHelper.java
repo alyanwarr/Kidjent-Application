@@ -20,9 +20,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COLUMN_EMAIL = "EMAIL";
     private static final String COLUMN_PASS = "PASS";
     private static final String COLUMN_PROFILE_PIC = "PROFILE_PIC";
+    private static final String COLUMN_SCORE= "SCORE";
     SQLiteDatabase db;
     private static final String TABLE_CREATE = "create table users(ID integer primary key not null, " +
-            "USERNAME varchar(255) unique not null, EMAIL  varchar(255) unique not null, PASS text not null, PROFILE_PIC varchar(255) not null);";
+            "USERNAME varchar(255) unique not null, EMAIL  varchar(255) unique not null, PASS text not null, PROFILE_PIC varchar(255) not null ,SCORE integer not null);";
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -45,6 +46,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
     public void insertUser(Users c) {
+        int score=0;
         db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         String qq = "select * from users";
@@ -56,6 +58,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_EMAIL, c.getEmail());
         values.put(COLUMN_PASS, c.getPass());
         values.put(COLUMN_PROFILE_PIC, path.toString());
+        values.put(COLUMN_SCORE, score);
         db.insert(TABLE_NAME,null, values);
         db.close();
     }
@@ -64,6 +67,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         ContentValues contentvalues=new ContentValues();
         contentvalues.put(COLUMN_PROFILE_PIC,New);
         db.update(TABLE_NAME, contentvalues, COLUMN_USERNAME + " = ? AND " + COLUMN_PROFILE_PIC+ " = ?", new String[]{Username,Old});
+    }
+    public void Update_Score(String Username,int Old,int New){
+        db = this.getReadableDatabase();
+        ContentValues contentvalues=new ContentValues();
+        contentvalues.put(COLUMN_SCORE,New);
+        db.update(TABLE_NAME, contentvalues, COLUMN_USERNAME + " = ? AND " + COLUMN_SCORE+ " = ?", new String[]{Username,String.valueOf(Old)});
     }
     public String GetColumn (String uname,String Column_name){
         db = this.getReadableDatabase();
@@ -109,6 +118,21 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                         if(a.equals(uname))
                         {
                             Result = cr.getString(4);
+                            break;
+                        }
+                    }
+                    while(cr.moveToNext());
+
+                }
+                break;
+            case "Score":
+                if (cr.moveToFirst())
+                {
+                    do {
+                        a = cr.getString(1);
+                        if(a.equals(uname))
+                        {
+                            Result = String.valueOf(cr.getInt(5));
                             break;
                         }
                     }

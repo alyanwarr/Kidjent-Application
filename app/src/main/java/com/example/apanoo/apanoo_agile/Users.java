@@ -10,6 +10,7 @@ import android.os.Parcelable;
 public class Users implements Parcelable{
 
     String email, uname, pass,profilepic;
+    int score;
     protected Users() {
 
     }
@@ -19,6 +20,7 @@ public class Users implements Parcelable{
         uname = in.readString();
         pass = in.readString();
         profilepic = in.readString();
+        score=in.readInt();
     }
 
     public static final Creator<Users> CREATOR = new Creator<Users>() {
@@ -73,6 +75,16 @@ public class Users implements Parcelable{
         return this.profilepic;
 
     }
+    public void setScore(int score)
+    {
+        this.score=score;
+
+    }
+    public int getScore()
+    {
+        return this.score;
+
+    }
 
     @Override
     public int describeContents() {
@@ -85,6 +97,7 @@ public class Users implements Parcelable{
         parcel.writeString(uname);
         parcel.writeString(pass);
         parcel.writeString(profilepic);
+        parcel.writeInt(score);
     }
 }
 

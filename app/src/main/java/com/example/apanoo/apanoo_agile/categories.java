@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
+import customfonts.MyTextView;
+
 /**
  * Created by omar_adel on 11/22/2016.
  */
@@ -16,12 +18,16 @@ public class categories extends AppCompatActivity {
     private Users user;
     private LinearLayout back;
     private View mContentView;
+    MyTextView English;
+    MyTextView Math;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         edits();
         setContentView(R.layout.categories);
         mContentView = findViewById(R.id.fullscreen_content);
+        English=(MyTextView)findViewById(R.id.english);
+        Math=(MyTextView)findViewById(R.id.math);
         user=(Users)getIntent().getParcelableExtra("Users");
         hide();
         back =(LinearLayout)findViewById(R.id.back);
@@ -29,6 +35,15 @@ public class categories extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent it=new Intent(categories.this,welcome.class);
+                it.putExtra("Users", user);
+                startActivity(it);
+                finish();
+            }
+        });
+        Math.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent it=new Intent(categories.this,MathGame.class);
                 it.putExtra("Users", user);
                 startActivity(it);
                 finish();
