@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import customfonts.MyTextView;
 
@@ -29,6 +30,7 @@ public class profile extends AppCompatActivity {
     private ImageView propic;
     private MyTextView signout;
     private View mContentView;
+    private TextView scoreofuser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +42,8 @@ public class profile extends AppCompatActivity {
         username.setText(user.getUname());
         propic=(ImageView)findViewById(R.id.propic);
         signout=(MyTextView)findViewById(R.id.signout);
+        scoreofuser=(TextView)findViewById(R.id.scoreofprofile);
+        scoreofuser.setText(String.valueOf(user.getScore()));
         signout.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

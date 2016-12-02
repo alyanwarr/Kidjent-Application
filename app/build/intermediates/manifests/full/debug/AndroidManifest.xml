@@ -33,6 +33,7 @@
         <activity android:name="com.example.apanoo.apanoo_agile.imagechoose" />
         <activity android:name="com.example.apanoo.apanoo_agile.profile" />
         <activity android:name="com.example.apanoo.apanoo_agile.categories" />
+        <activity android:name="com.example.apanoo.apanoo_agile.MathGame" />
     </application>
 
 </manifest>
