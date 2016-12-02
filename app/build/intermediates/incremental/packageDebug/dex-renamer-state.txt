@@ -1,7 +1,7 @@
-#Fri Dec 02 15:21:38 GMT+02:00 2016
-base.0=C\:\\Users\\Peter\\Desktop\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f02e92f3d57536f3cea86c36e2112222ff45a539
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Peter\\Desktop\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fb108bfb5ab0b61703bd68969aedd8a19669cc52\\classes.dex
-base.1=C\:\\Users\\Peter\\Desktop\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_fb108bfb5ab0b61703bd68969aedd8a19669cc52
-file.0=C\:\\Users\\Peter\\Desktop\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f02e92f3d57536f3cea86c36e2112222ff45a539\\classes.dex
+#Fri Dec 02 22:43:44 EET 2016
+base.0=/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2c4f918dcc48a07ea21adfb66217ffff286638e9
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_70109dc8ead3b24a098e4ba91aa825ef30d16d1a/classes.dex
+base.1=/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_70109dc8ead3b24a098e4ba91aa825ef30d16d1a
+file.0=/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2c4f918dcc48a07ea21adfb66217ffff286638e9/classes.dex

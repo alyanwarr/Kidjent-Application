@@ -1,231 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="24"
+    api-level="22"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="11059530729704"
-    token="4118721507652417023"
+    timestamp="6999905913842"
+    token="5371123025830189248"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1880" />
+        duration="147" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="511" />
+        duration="12" />
     <task
         name="verifier"
-        duration="347" />
+        duration="1" />
 
     <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_05efa5daccda330d76ccf8460b4084f4220d7a0d\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_75702791b6ca8eb6f39c47b5b52b94c1c6a06629\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_99480d7ee2f2ae7e6752be5dd5dcd97473a38a2e\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_8315dc4470a6b3f268b5654214ec963f32c8e444\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_685d2ba2fc585c12ba399cbe9bcbe7b3b20eff03\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a35b353bdb62b1a1efc692cdd08a5c18b8d2e813\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_5a4cbbde7e0c71a448d2f0bf0ab0d31b6943caa8\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_84c414620ec31ca6304c71765580ae6f46aea1ea\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_18300c043597fba1b2c251e422f8eede91c0f111\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta1_484a042f3e2a4f48b9ac268c7644c2930a96bb0d\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ec9bcf7bb2919000a721106209c3b67abed46247\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_66b6210ba4d7f06e21ccb0e1e4c06563d29fed55\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_85a44426296a4481cba5369f056f27a559335f9b\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_4c59f9b12be94c373bfa716fd9b31370dc5acec7\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta1_4410d368c17a15243087e22be2ef6df5e9566438\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f8bb52dfd12abf93604d368a2f7016b15336afe6\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_2f16c5ebdfccc9d79065d4d190847e7fb21ad4f3\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_e39116eb0dd5e6b3f1d495b88db54b73c8ef4cff\classes.dex"
-        type="DEX" />
-    <artifact
-        location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_05f25967ae466f1425b8466b40a6f9c7762b7d77\classes.dex"
+        location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
         type="DEX" />
 
     <build
-        timestamp="7224931829558"
+        timestamp="5021196987163"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Peter\Desktop\APANOO-Agile-master\app\build\outputs\apk\app-debug.apk"
+            location="/home/aly/Downloads/APANOO-Agile/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="7548510100648"
+        timestamp="6999905913842"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Peter\Desktop\APANOO-Agile-master\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="8419961245199"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Peter\Desktop\APANOO-Agile-master\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="11059530729704"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_05efa5daccda330d76ccf8460b4084f4220d7a0d\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_75702791b6ca8eb6f39c47b5b52b94c1c6a06629\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_99480d7ee2f2ae7e6752be5dd5dcd97473a38a2e\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_8315dc4470a6b3f268b5654214ec963f32c8e444\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_685d2ba2fc585c12ba399cbe9bcbe7b3b20eff03\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a35b353bdb62b1a1efc692cdd08a5c18b8d2e813\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_5a4cbbde7e0c71a448d2f0bf0ab0d31b6943caa8\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_84c414620ec31ca6304c71765580ae6f46aea1ea\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_18300c043597fba1b2c251e422f8eede91c0f111\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta1_484a042f3e2a4f48b9ac268c7644c2930a96bb0d\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ec9bcf7bb2919000a721106209c3b67abed46247\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_66b6210ba4d7f06e21ccb0e1e4c06563d29fed55\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_85a44426296a4481cba5369f056f27a559335f9b\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_4c59f9b12be94c373bfa716fd9b31370dc5acec7\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta1_4410d368c17a15243087e22be2ef6df5e9566438\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f8bb52dfd12abf93604d368a2f7016b15336afe6\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_2f16c5ebdfccc9d79065d4d190847e7fb21ad4f3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_e39116eb0dd5e6b3f1d495b88db54b73c8ef4cff\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Peter\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_05f25967ae466f1425b8466b40a6f9c7762b7d77\classes.dex"
+            location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
             type="DEX" />
     </build>
 

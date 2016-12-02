@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\Peter\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\logol.png",
-        "source": "C:\\Users\\Peter\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\mipmap-xxxhdpi\\logol.png"
-    },
-    {
-        "merged": "C:\\Users\\Peter\\Desktop\\APANOO-Agile-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\logol.png",
-        "source": "C:\\Users\\Peter\\Desktop\\APANOO-Agile-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\logol.png"
+        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/logol.png",
+        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/mipmap-xxxhdpi/logol.png"
     }
 ]
