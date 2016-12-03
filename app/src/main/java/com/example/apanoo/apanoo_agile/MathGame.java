@@ -335,11 +335,12 @@ public class MathGame extends Activity implements View.OnClickListener {
     }
 
     public void IncorrectAns(TextView choice) {
-        choice.setTextColor(Color.RED);
-        choice.setClickable(false);
-        choice.setPaintFlags(choice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+       // choice.setTextColor(Color.RED);
+       // choice.setClickable(false);
+       // choice.setPaintFlags(choice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
         life--;
-        lifes.setText(String.valueOf(life));
+
+
         if (life == 0) {
             Toast Death = Toast.makeText(MathGame.this, "You ran out of lifes", Toast.LENGTH_SHORT);
             Death.show();
@@ -352,12 +353,24 @@ public class MathGame extends Activity implements View.OnClickListener {
             finish();
             startActivity(it);
         }
+        else {
+            Toast wrong = Toast.makeText(MathGame.this, "Wrong Answer! " + life +" lives left!", Toast.LENGTH_SHORT);
+            wrong.show();
+            newQuestion(choice);
+
+        lifes.setText(String.valueOf(life));}
+
 
     }
 
     public void CorrectAns(TextView choice) {
         Gamescore++;
         score.setText(String.valueOf(Gamescore));
+
+        newQuestion(choice);
+    }
+
+    private void newQuestion(TextView choice) {
         switch (unknown) {
             case "Operand1":
                 Operand1.setText(choice.getText().toString());
@@ -374,7 +387,7 @@ public class MathGame extends Activity implements View.OnClickListener {
             @Override
             public void run() {
                 // Do something after 1s = 1000ms
-                life = 3;
+
                 ResetAllChoices();
                 lifes.setText(String.valueOf(life));
                 unknown = unknownRand();

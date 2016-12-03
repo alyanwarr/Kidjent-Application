@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="aabfd6e1bcd1f5c94bba02fa3dbe69bb98e6ed7c">
+        sha1="750815abec76ebb63ab46ce2fea4f66b9cf2026c">
         <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_70109dc8ead3b24a098e4ba91aa825ef30d16d1a/classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="539e9d544762086a7e983c92245a38b2314f20b6">
+        sha1="6cf7572f0e48a9c8cc7cbeec41189210591acc4d">
         <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2c4f918dcc48a07ea21adfb66217ffff286638e9/classes.dex" />
     </item>
     <item

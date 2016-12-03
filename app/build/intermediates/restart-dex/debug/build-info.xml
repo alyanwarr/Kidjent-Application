@@ -5,40 +5,61 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="6999905913842"
+    timestamp="16531475260257"
     token="5371123025830189248"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="147" />
+        duration="218" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="75" />
     <task
         name="instant-run-transform"
-        duration="12" />
+        duration="29" />
     <task
         name="verifier"
-        duration="1" />
+        duration="4" />
 
     <artifact
-        location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-        type="DEX" />
+        location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="5021196987163"
+        timestamp="16210255503175"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/aly/Downloads/APANOO-Agile/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="6999905913842"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="16320189921566"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
-            type="DEX" />
+            location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/builds/debug/16320189921566/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="16437923601017"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/builds/debug/16437923601017/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="16496114519852"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/builds/debug/16496114519852/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="16531475260257"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

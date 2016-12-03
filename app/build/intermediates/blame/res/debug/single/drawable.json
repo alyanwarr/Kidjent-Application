@@ -56,12 +56,12 @@
         "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/user.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable/user.png"
-    },
-    {
         "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/user.png",
+        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable/user.png"
     },
     {
         "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -96,12 +96,12 @@
         "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable/transparentimage.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_bg.xml"
-    },
-    {
         "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/roundedrect.xml",
         "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable/roundedrect.xml"
+    },
+    {
+        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
@@ -176,16 +176,16 @@
         "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_vector_test.xml"
     },
     {
         "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/rect1blue.xml",
         "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable/rect1blue.xml"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_vector_test.xml"
+        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",

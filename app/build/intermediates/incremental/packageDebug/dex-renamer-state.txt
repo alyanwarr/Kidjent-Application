@@ -1,4 +1,4 @@
-#Fri Dec 02 22:43:44 EET 2016
+#Sat Dec 03 19:28:09 EET 2016
 base.0=/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2c4f918dcc48a07ea21adfb66217ffff286638e9
 renamed.1=classes.dex
 renamed.0=classes2.dex
