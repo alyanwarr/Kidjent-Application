@@ -18,7 +18,7 @@ import android.widget.TextView;
 import customfonts.MyTextView;
 
 /**
- * Created by omar_adel on 11/21/2016.
+ * Created by APANOO on 11/21/2016.
  */
 
 public class profile extends AppCompatActivity {

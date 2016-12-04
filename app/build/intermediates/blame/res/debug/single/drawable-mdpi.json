@@ -1,38 +1,46 @@
 [
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/categories.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/categories.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_shape_1.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\ic_shape_1.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/defaultprofile.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/defaultprofile.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pasword.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\pasword.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/apanoo.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/apanoo.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\categories.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\categories.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_shape_1.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/ic_shape_1.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\profile.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\profile.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/profile.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/profile.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\defaultprofile.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\defaultprofile.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/back.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/back.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_tool_6.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\ic_tool_6.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/pasword.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/pasword.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\score.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\score.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/user.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/user.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\back.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\back.png"
     },
     {
-        "merged": "/home/aly/Downloads/APANOO-Agile/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_tool_6.png",
-        "source": "/home/aly/Downloads/APANOO-Agile/app/src/main/res/drawable-mdpi/ic_tool_6.png"
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\apanoo.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\apanoo.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\user.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\heart.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\heart.png"
     }
 ]
