@@ -1,4 +1,4 @@
-#Sun Dec 04 20:04:16 EET 2016
+#Sun Dec 04 23:37:58 EET 2016
 base.0=C\:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5512eee470108925557dbc9816d1e1c0d03a7ffb
 renamed.1=classes.dex
 renamed.0=classes2.dex
