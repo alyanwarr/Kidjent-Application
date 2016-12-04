@@ -8,6 +8,10 @@
         "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\pasword.png"
     },
     {
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\frame.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\frame.png"
+    },
+    {
         "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\categories.png",
         "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-mdpi\\categories.png"
     },

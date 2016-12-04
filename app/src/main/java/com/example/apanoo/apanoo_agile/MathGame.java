@@ -27,22 +27,21 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
     private Users user;
     private View mContentView;
     private LinearLayout returne;
-    TextView Operand1;
-    TextView Operand2;
-    TextView Operator;
-    TextView Equal;
-    TextView Result;
-    TextView Choice1;
-    TextView Choice2;
-    TextView Choice3;
-    TextView Choice4;
-    TextView lifes;
-    TextView score;
-    private MyTextView refresh;
-    int unknwnvalue;
-    String unknown;
-    int Gamescore = 0;
-    int life = 3;
+    private TextView Operand1;
+    private TextView Operand2;
+    private TextView Operator;
+    private TextView Equal;
+    private TextView Result;
+    private TextView Choice1;
+    private TextView Choice2;
+    private TextView Choice3;
+    private TextView Choice4;
+    private TextView lifes;
+    private TextView score;
+    private int unknwnvalue;
+    private String unknown;
+    private int Gamescore = 0;
+    private int life = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,20 +59,10 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
         Choice2 = (TextView) findViewById(R.id.Choice2);
         Choice3 = (TextView) findViewById(R.id.Choice3);
         Choice4 = (TextView) findViewById(R.id.Choice4);
-        refresh = (MyTextView) findViewById(R.id.refresh);
         lifes = (TextView) findViewById(R.id.life);
         lifes.setText(String.valueOf(life));
         score = (TextView) findViewById(R.id.score);
         score.setText(String.valueOf(Gamescore));
-        refresh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(MathGame.this, MathGame.class);
-                i.putExtra("Users", user);
-                finish();
-                startActivity(i);
-            }
-        });
         Equal.setText("=");
         /*char x=RandOperator();
         System.out.println(x);
@@ -97,6 +86,10 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MathGame.this,categories.class);
+                int oldscore = user.getScore();
+                int newscore = user.getScore() + Gamescore;
+                user.setScore(newscore);
+                helper.Update_Score(user.getUname(), oldscore, newscore);
                 it.putExtra("Users", user);
                 startActivity(it);
                 finish();
@@ -122,13 +115,13 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
         Result.setText(String.valueOf(result));
         switch (unknown) {
             case "Operand1":
-                Operand1.setText("__");
+                Operand1.setText("_");
                 return operand1;
             case "Operand2":
-                Operand2.setText("__");
+                Operand2.setText("_");
                 return operand2;
             case "Result":
-                Result.setText("__");
+                Result.setText("_");
                 return result;
         }
         return result;
@@ -250,9 +243,9 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
             case 2:
                 return '-';
             case 3:
-                return '*';
+                return '×';
             case 4:
-                return '/';
+                return '÷';
         }
         return '+';
     }
@@ -272,13 +265,13 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
             case '-':
                 Result = operand1 - operand2;
                 break;
-            case '*':
+            case '×':
                 if (operand1 == 0 || operand2 == 0) {
                     Result = -100;
                     break;
                 } else Result = operand1 * operand2;
                 break;
-            case '/':
+            case '÷':
                 if (operand2 == 0) {
                     Result = -100;
                     break;
@@ -362,7 +355,7 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
         if (life == 0) {
             Toast Death = Toast.makeText(MathGame.this, "You ran out of lifes", Toast.LENGTH_SHORT);
             Death.show();
-            Intent it = new Intent(MathGame.this, welcome.class);
+            Intent it = new Intent(MathGame.this, categories.class);
             int oldscore = user.getScore();
             int newscore = user.getScore() + Gamescore;
             user.setScore(newscore);
@@ -420,11 +413,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
     }
 
     private void ResetAllChoices() {
-        Choice1.setTextColor(Color.GRAY);
-        Choice2.setTextColor(Color.GRAY);
-        Choice3.setTextColor(Color.GRAY);
-        Choice4.setTextColor(Color.GRAY);
-
         Choice1.setPaintFlags(Choice1.getPaintFlags() & (~Paint.STRIKE_THRU_TEXT_FLAG));
         Choice2.setPaintFlags(Choice2.getPaintFlags() & (~Paint.STRIKE_THRU_TEXT_FLAG));
         Choice3.setPaintFlags(Choice3.getPaintFlags() & (~Paint.STRIKE_THRU_TEXT_FLAG));

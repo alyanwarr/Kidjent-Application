@@ -16,6 +16,10 @@
         "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-xhdpi\\user.png"
     },
     {
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\frame.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-xhdpi\\frame.png"
+    },
+    {
         "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\score.png",
         "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable-xhdpi\\score.png"
     },
