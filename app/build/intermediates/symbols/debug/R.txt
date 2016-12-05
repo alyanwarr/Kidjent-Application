@@ -581,13 +581,13 @@ int id Choice1 0x7f0b0073
 int id Choice2 0x7f0b0072
 int id Choice3 0x7f0b0071
 int id Choice4 0x7f0b0070
-int id Equal 0x7f0b0078
+int id Equal 0x7f0b0077
 int id INpassword 0x7f0b0097
 int id INusername 0x7f0b0096
-int id Operand1 0x7f0b0076
-int id Operand2 0x7f0b0077
+int id Operand1 0x7f0b0075
+int id Operand2 0x7f0b0076
 int id Operator 0x7f0b006d
-int id Result 0x7f0b0079
+int id Result 0x7f0b0078
 int id UPpassword 0x7f0b009e
 int id UPusername 0x7f0b009c
 int id acc 0x7f0b005e
@@ -652,7 +652,7 @@ int id imageView2 0x7f0b009a
 int id imageView3 0x7f0b0064
 int id imageView4 0x7f0b0065
 int id imageView6 0x7f0b006c
-int id imageView7 0x7f0b0075
+int id imageView7 0x7f0b0074
 int id info 0x7f0b0087
 int id life 0x7f0b006a
 int id line1 0x7f0b008c
@@ -688,7 +688,7 @@ int id radio 0x7f0b0042
 int id refresh 0x7f0b006f
 int id right_icon 0x7f0b0089
 int id right_side 0x7f0b0084
-int id score 0x7f0b0074
+int id score 0x7f0b0079
 int id scoreofprofile 0x7f0b0094
 int id screen 0x7f0b0019
 int id scrollIndicatorDown 0x7f0b003c

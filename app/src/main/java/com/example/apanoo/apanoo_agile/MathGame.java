@@ -64,14 +64,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
         score = (TextView) findViewById(R.id.score);
         score.setText(String.valueOf(Gamescore));
         Equal.setText("=");
-        /*char x=RandOperator();
-        System.out.println(x);
-        int y=RandOperand();
-        System.out.println(y);
-        int z=RandOperand();
-        System.out.println(z);
-        int i=Result(y,z,x);
-        System.out.println(i);*/
         unknown = unknownRand();
         System.out.println("Unknown :" + unknown);
         unknwnvalue = equationGen(unknown);
@@ -144,14 +136,14 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
 
     int choicesGen(String unknown) {
         Random r = new Random();
-        if ((unknown == "Operand1") || (unknown == "Operand2"))
+        if ((unknown == "Operand1") || (unknown == "Operand2")) {
             return r.nextInt(10 - 0) + 0;
-        else
+        } else {
             return r.nextInt(82 - 0) + 0;
-
+        }
     }
 
-    void ChoicesAssign(int result, String unknown) {
+    /*void ChoicesAssign(int result, String unknown) {
         int randresult;
         Random r = new Random();
         int randchoice = r.nextInt(5 - 1) + 1;
@@ -218,7 +210,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                     randresult = choicesGen(unknown);
                     if (randresult != result)
                         Choice1.setText(String.valueOf(randresult));
-
                 } while (randresult == result);
                 do {
                     randresult = choicesGen(unknown);
@@ -232,8 +223,62 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                 } while (randresult == result);
                 break;
         }
+    }*/
+    void ChoicesAssign(int result, String unknown) {
+        Random r = new Random();
+        int resultchoice = r.nextInt(4)+1;
+        if(resultchoice == 1){
+            Choice1.setText(String.valueOf(result));
+        }else if(resultchoice == 2){
+            Choice2.setText(String.valueOf(result));
+        }else if(resultchoice == 3){
+            Choice3.setText(String.valueOf(result));
+        }else {
+            Choice4.setText(String.valueOf(result));
+        }
+        otherchoises(resultchoice);
     }
 
+    void otherchoises(int resultchoice){
+        switch(resultchoice){
+            case 1:
+                Choice2.setText(String.valueOf(choicescheck()));
+                Choice3.setText(String.valueOf(choicescheck()));
+                Choice4.setText(String.valueOf(choicescheck()));
+                break;
+            case 2:
+                Choice1.setText(String.valueOf(choicescheck()));
+                Choice3.setText(String.valueOf(choicescheck()));
+                Choice4.setText(String.valueOf(choicescheck()));
+                break;
+            case 3:
+                Choice1.setText(String.valueOf(choicescheck()));
+                Choice2.setText(String.valueOf(choicescheck()));
+                Choice4.setText(String.valueOf(choicescheck()));
+                break;
+            case 4:
+                Choice1.setText(String.valueOf(choicescheck()));
+                Choice2.setText(String.valueOf(choicescheck()));
+                Choice3.setText(String.valueOf(choicescheck()));
+                break;
+        }
+    }
+
+    int choicescheck(){
+        int number = 0;
+        while(true){
+            number = choicesGen(unknown);
+            if(number != Integer.parseInt(Choice1.getText().toString())){
+                if(number != Integer.parseInt(Choice2.getText().toString())){
+                    if(number != Integer.parseInt(Choice3.getText().toString())){
+                        if(number != Integer.parseInt(Choice4.getText().toString())){
+                            return number;
+                        }
+                    }
+                }
+            }
+        }
+    }
     char RandOperator() {
         Random r = new Random();
         int randoperator = r.nextInt(5 - 1) + 1;
@@ -253,7 +298,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
     int RandOperand() {
         Random r = new Random();
         return r.nextInt(10 - 0) + 0;
-
     }
 
     int Result(int operand1, int operand2, char operator) {
@@ -272,7 +316,7 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                 } else Result = operand1 * operand2;
                 break;
             case '÷':
-                if (operand2 == 0) {
+                if (operand1 == 0 || operand2 == 0) {
                     Result = -100;
                     break;
                 } else if ((operand1 % operand2) != 0)
@@ -284,7 +328,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
     }
 
     public void onBackPressed() {
-
         super.onBackPressed();
         Intent it = new Intent(MathGame.this, categories.class);
         int oldscore = user.getScore();
@@ -308,10 +351,8 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                 choice = Integer.parseInt(Choice1.getText().toString());
                 if (choice == unknwnvalue) {
                     CorrectAns(Choice1);
-
                 } else {
                     IncorrectAns(Choice1);
-
                 }
                 break;
             case R.id.Choice2:
@@ -320,9 +361,7 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                     CorrectAns(Choice2);
                 } else {
                     IncorrectAns(Choice2);
-
                 }
-
                 break;
             case R.id.Choice3:
                 choice = Integer.parseInt(Choice3.getText().toString());
@@ -330,7 +369,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                     CorrectAns(Choice3);
                 } else {
                     IncorrectAns(Choice3);
-
                 }
                 break;
             case R.id.Choice4:
@@ -339,7 +377,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                     CorrectAns(Choice4);
                 } else {
                     IncorrectAns(Choice4);
-
                 }
                 break;
         }

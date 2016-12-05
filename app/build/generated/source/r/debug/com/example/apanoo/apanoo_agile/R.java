@@ -2212,13 +2212,13 @@ containing a value of this type.
         public static final int Choice2=0x7f0b0072;
         public static final int Choice3=0x7f0b0071;
         public static final int Choice4=0x7f0b0070;
-        public static final int Equal=0x7f0b0078;
+        public static final int Equal=0x7f0b0077;
         public static final int INpassword=0x7f0b0097;
         public static final int INusername=0x7f0b0096;
-        public static final int Operand1=0x7f0b0076;
-        public static final int Operand2=0x7f0b0077;
+        public static final int Operand1=0x7f0b0075;
+        public static final int Operand2=0x7f0b0076;
         public static final int Operator=0x7f0b006d;
-        public static final int Result=0x7f0b0079;
+        public static final int Result=0x7f0b0078;
         public static final int UPpassword=0x7f0b009e;
         public static final int UPusername=0x7f0b009c;
         public static final int acc=0x7f0b005e;
@@ -2283,7 +2283,7 @@ containing a value of this type.
         public static final int imageView3=0x7f0b0064;
         public static final int imageView4=0x7f0b0065;
         public static final int imageView6=0x7f0b006c;
-        public static final int imageView7=0x7f0b0075;
+        public static final int imageView7=0x7f0b0074;
         public static final int info=0x7f0b0087;
         public static final int life=0x7f0b006a;
         public static final int line1=0x7f0b008c;
@@ -2319,7 +2319,7 @@ containing a value of this type.
         public static final int refresh=0x7f0b006f;
         public static final int right_icon=0x7f0b0089;
         public static final int right_side=0x7f0b0084;
-        public static final int score=0x7f0b0074;
+        public static final int score=0x7f0b0079;
         public static final int scoreofprofile=0x7f0b0094;
         public static final int screen=0x7f0b0019;
         public static final int scrollIndicatorDown=0x7f0b003c;
