@@ -108,12 +108,12 @@
         "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transparentimage.png",
-        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable\\transparentimage.png"
-    },
-    {
         "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\transparentimage.png",
+        "source": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\src\\main\\res\\drawable\\transparentimage.png"
     },
     {
         "merged": "C:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
