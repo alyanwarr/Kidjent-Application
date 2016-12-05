@@ -3,174 +3,174 @@
 
     <item
         is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="750815abec76ebb63ab46ce2fea4f66b9cf2026c">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_70109dc8ead3b24a098e4ba91aa825ef30d16d1a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_341b9a1dcaefc42ba032fdf5132017fb211b8a3a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta1/constraint-layout-solver-1.0.0-beta1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta1_742614cb477ceb72ab0f90c8908dddb4eb65bf93/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_6916c9caa895d3ae5a3d84813f8466a6555dca28/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_638bb66bf2fb144775bb04b169248b7d48c44168/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6cf7572f0e48a9c8cc7cbeec41189210591acc4d">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2c4f918dcc48a07ea21adfb66217ffff286638e9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_5ca11a179e77fd4820a22fd7e773fff986a0c183/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_d9cc5fcc1878266d75929c5fa7443fb7ba8f8f62/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_032e88ed2dffba596c73f7ac79fa6ddefd485e76/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_4b26f5d999d7bc7bbf6e115fe1a09d9826a98fbc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_3aa0943e454d82a2002712f068121febdef80fc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_a0b231d85eb355bc0067d77595c715d6514cd890/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_a5e0794a41724007b6b6228eb40facb7bb872599/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_9c840c8ac07ae791d6f64b35e6f115566fd4ca39/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_dd5c666ee7ba7ae9a087073eae85e66c3c787b10/classes.dex" />
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_46b695169cc719826081661165aab702316d1857\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_48b2fb9293a8db9ecb835267de421010747b14af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_aa7409ecb84771771fd5380dac0888c6b47c6db6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_236008a80f2d5a88419b96dd9d0972897c215db6/classes.dex" />
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_6013f51b7b660e461ec87a4ec094154f52b2a06a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e1701b030f2ff0a4abfa459bab2c84d34a70e5f9">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9ecf35579c7673b8cc8435a0bd25ad9f8aeb8633\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_919634dcf29968f19978b6a5c011edad78a56586\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_9f0bea301c54f09d111cfaa0441d88d2f06226b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7065d4b353c101ec1fe464dc874df4f7ca0e5a56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_79524e517b049b7b53c74789f53f358811933578/classes.dex" />
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7e484e875754390f96745dfbfd193c276fe4b0b0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta1/jars/classes.jar"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-beta1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta1_5a3be96d1ac81c5a1c3ec0e8dfc39d19c4759451/classes.dex" />
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.0-beta1_fb6e6697c8d2a390dcc686a907f5af538172d5e8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="C:\Users\omar_adel\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_c9b3ad7295707516122a3627ce4b824c9d1968d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_63ef544d1c9ae57c381f9c77a0064dcafa5cf7c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_bdaa90289bd0b387d738736cc573c42a51fc8bff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_a4cfa95e8c34d39eee2d5f31f0b6898ac9b30ebc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_cd133e9806d242ca5551c9108b991093acf5003d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/home/aly/Downloads/APANOO-Agile/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2cb42ef28416506918a7e226544c3c4a20426eea/classes.dex" />
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8de4e4a912c2825f284b3c14b14eb326901f6a2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58b9e15027d4037d4236bbf50cac73025a9dc8a9">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5512eee470108925557dbc9816d1e1c0d03a7ffb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta1\constraint-layout-solver-1.0.0-beta1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-beta1_0be997b7bd9b6d946314a10819f04ba9d570124e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_2f9359952dd02cd7a8b8a41cec6b4d88133da350\classes.dex" />
     </item>
 
 </items>

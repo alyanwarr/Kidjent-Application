@@ -1,154 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     android:baselineAligned="false"
-    android:weightSum="1">
-
-
-    <TextView
-        android:text="3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Result"
-        android:textAlignment="center"
-        android:textSize="36sp"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="67dp"
-        android:layout_marginEnd="67dp" />
+    android:weightSum="1"
+    android:background="@drawable/math">
 
     <TextView
-        android:text="2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Operand2"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullscreen_content" />
 
-    <TextView
-        android:text="+"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Operator"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/Choice1"
-        android:layout_toStartOf="@+id/Choice1" />
+    <RelativeLayout
+        android:layout_width="438dp"
+        android:layout_height="617dp">
 
-    <TextView
-        android:text="="
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Equal"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        android:layout_marginRight="41dp"
-        android:layout_marginEnd="41dp"
-        android:layout_alignBaseline="@+id/Result"
-        android:layout_alignBottom="@+id/Result"
-        android:layout_toLeftOf="@+id/Result"
-        android:layout_toStartOf="@+id/Result" />
+        <TextView
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/life"
+            android:textSize="24sp"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="52dp"
+            android:layout_below="@+id/playreturn"
+            android:layout_toRightOf="@+id/imageView6"
+            android:layout_toEndOf="@+id/imageView6"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" />
 
-    <TextView
-        android:text="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Operand1"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        android:layout_marginRight="38dp"
-        android:layout_marginEnd="38dp"
-        android:layout_alignBaseline="@+id/Operator"
-        android:layout_alignBottom="@+id/Operator"
-        android:layout_toLeftOf="@+id/Operator"
-        android:layout_toStartOf="@+id/Operator" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="28dp"
+            android:id="@+id/playreturn"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/Operator"
+            android:layout_toStartOf="@+id/Operator">
 
-    <TextView
-        android:text="2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Choice1"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/Operand2"
-        android:layout_toStartOf="@+id/Operand2"
-        android:layout_marginRight="48dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="104dp" />
+            <ImageView
 
-    <TextView
-        android:text="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Choice2"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_alignBaseline="@+id/Choice1"
-        android:layout_alignBottom="@+id/Choice1"
-        android:layout_toLeftOf="@+id/Result"
-        android:layout_toStartOf="@+id/Result" />
+                android:id="@+id/playback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:padding="10dp"
+                android:layout_gravity="center"
 
-    <TextView
-        android:text="4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Choice3"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_alignBaseline="@+id/Choice4"
-        android:layout_alignBottom="@+id/Choice4"
-        android:layout_alignLeft="@+id/Choice1"
-        android:layout_alignStart="@+id/Choice1" />
+                />
 
-    <TextView
-        android:text="3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/Choice4"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_marginBottom="16dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/Choice2"
-        android:layout_alignStart="@+id/Choice2" />
+            <customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RETURN"
+                android:textSize="22dp"
+                android:textColor="#ADCCE2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
 
-    <Button
-        android:text="Refresh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="92dp"
-        android:id="@+id/refresh" />
 
-    <TextView
-        android:text="0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="35dp"
-        android:layout_marginEnd="35dp"
-        android:id="@+id/score"
-        android:textSize="24sp"
-        android:layout_alignBaseline="@+id/life"
-        android:layout_alignBottom="@+id/life"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        </LinearLayout>
 
-    <TextView
-        android:text="3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/life"
-        android:layout_marginTop="22dp"
-        android:textSize="24sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/Operand1"
-        android:layout_alignStart="@+id/Operand1" />
-</RelativeLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            android:id="@+id/imageView6"
+            android:layout_alignBottom="@+id/life"
+            android:layout_alignLeft="@+id/refresh"
+            android:layout_alignStart="@+id/refresh"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp" />
+
+        <customfonts.MyTextView
+            android:text="3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rect"
+            android:id="@+id/Choice4"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:fontFamily="cursive"
+            android:layout_alignBaseline="@+id/Choice3"
+            android:layout_alignBottom="@+id/Choice3"
+            android:layout_alignLeft="@+id/Choice2"
+            android:layout_alignStart="@+id/Choice2"
+            android:padding="10dp" />
+
+        <customfonts.MyTextView
+            android:text="4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rect"
+            android:id="@+id/Choice3"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="32dp"
+            android:fontFamily="cursive"
+            android:padding="10dp"
+            android:layout_below="@+id/Choice1"
+            android:layout_alignRight="@+id/Choice1"
+            android:layout_alignEnd="@+id/Choice1" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:textSize="24sp"
+            android:textColor="@android:color/background_light"
+            android:layout_alignBaseline="@+id/life"
+            android:layout_alignBottom="@+id/life"
+            android:layout_toRightOf="@+id/imageView7"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp" />
+
+        <customfonts.MyTextView
+            android:text="2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rect"
+            android:id="@+id/Choice1"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:fontFamily="cursive"
+            android:padding="10dp"
+            android:layout_marginLeft="69dp"
+            android:layout_marginStart="69dp"
+            android:layout_alignBaseline="@+id/Choice2"
+            android:layout_alignBottom="@+id/Choice2"
+            android:layout_toRightOf="@+id/Choice2"
+            android:layout_toEndOf="@+id/Choice2" />
+
+        <ImageView
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/score"
+            android:id="@+id/imageView7"
+            android:layout_width="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/Choice1"
+            android:layout_toEndOf="@+id/Choice1"
+            android:layout_marginTop="19dp" />
+
+        <customfonts.MyTextView
+            android:text="1"
+            android:background="@drawable/rect"
+            android:id="@+id/Choice2"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:fontFamily="cursive"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="10dp"
+            android:layout_below="@+id/imageView7"
+            android:layout_toRightOf="@+id/playreturn"
+            android:layout_toEndOf="@+id/playreturn"
+            android:layout_marginTop="86dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Choice1"
+            android:layout_toLeftOf="@+id/imageView7"
+            android:layout_toStartOf="@+id/imageView7"
+            android:layout_marginBottom="43dp">
+
+            <TextView
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Operand1"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:layout_alignBaseline="@+id/Operator"
+                android:layout_alignBottom="@+id/Operator"
+                android:layout_toLeftOf="@+id/life"
+                android:layout_toStartOf="@+id/life"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Operator"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:fontFamily="sans-serif"
+                android:layout_alignBottom="@+id/Operand2"
+                android:layout_alignRight="@+id/refresh"
+                android:layout_alignEnd="@+id/refresh"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Operand2"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:layout_alignBaseline="@+id/Equal"
+                android:layout_alignBottom="@+id/Equal"
+                android:layout_toLeftOf="@+id/Equal"
+                android:layout_toStartOf="@+id/Equal"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="="
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Equal"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:fontFamily="sans-serif"
+                android:layout_alignBaseline="@+id/Result"
+                android:layout_alignBottom="@+id/Result"
+                android:layout_toRightOf="@+id/Choice3"
+                android:layout_toEndOf="@+id/Choice3"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Result"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textColor="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:layout_marginBottom="13dp"
+                android:layout_above="@+id/Choice1"
+                android:layout_alignLeft="@+id/imageView7"
+                android:layout_alignStart="@+id/imageView7"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
