@@ -25,7 +25,7 @@
             android:textSize="24sp"
             android:textColor="@android:color/background_light"
             android:layout_marginTop="52dp"
-            android:layout_below="@+id/playreturn"
+            android:layout_below="@+id/mathreturn"
             android:layout_toRightOf="@+id/imageView6"
             android:layout_toEndOf="@+id/imageView6"
             android:layout_marginLeft="8dp"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="28dp"
-            android:id="@+id/playreturn"
+            android:id="@+id/mathreturn"
             android:layout_alignParentTop="true"
             android:layout_toLeftOf="@+id/Operator"
             android:layout_toStartOf="@+id/Operator">
@@ -64,17 +64,6 @@
 
 
         </LinearLayout>
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            app:srcCompat="@drawable/heart"
-            android:id="@+id/imageView6"
-            android:layout_alignBottom="@+id/life"
-            android:layout_alignLeft="@+id/refresh"
-            android:layout_alignStart="@+id/refresh"
-            android:layout_marginLeft="11dp"
-            android:layout_marginStart="11dp" />
 
         <customfonts.MyTextView
             android:text="3"
@@ -148,8 +137,8 @@
             android:layout_height="60dp"
             android:padding="10dp"
             android:layout_below="@+id/imageView7"
-            android:layout_toRightOf="@+id/playreturn"
-            android:layout_toEndOf="@+id/playreturn"
+            android:layout_toRightOf="@+id/mathreturn"
+            android:layout_toEndOf="@+id/mathreturn"
             android:layout_marginTop="86dp" />
 
         <LinearLayout
@@ -247,6 +236,17 @@
             android:layout_alignBottom="@+id/life"
             android:layout_toRightOf="@+id/imageView7"
             android:layout_toEndOf="@+id/imageView7" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/heart"
+            android:id="@+id/imageView6"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_alignBottom="@+id/life"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 </FrameLayout>

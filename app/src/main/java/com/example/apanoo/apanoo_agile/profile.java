@@ -24,6 +24,7 @@ import customfonts.MyTextView;
 public class profile extends AppCompatActivity {
     private DatabaseHelper helper=new DatabaseHelper(this);
     private Users user;
+    private MyTextView rank;
     private static final int MY_PERMISSIONS_REQUEST_READ_EXTERNAL_STORAGE = 0;
     private LinearLayout back;
     private MyTextView username;
@@ -31,6 +32,7 @@ public class profile extends AppCompatActivity {
     private MyTextView signout;
     private View mContentView;
     private TextView scoreofuser;
+    private TextView Engscoreofuser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,10 +42,13 @@ public class profile extends AppCompatActivity {
         mContentView = findViewById(R.id.fullscreen_content);
         username=(MyTextView)findViewById(R.id.usernameprof);
         username.setText(user.getUname());
+        rank = (MyTextView) findViewById(R.id.Rank);
         propic=(ImageView)findViewById(R.id.propic);
         signout=(MyTextView)findViewById(R.id.signout);
         scoreofuser=(TextView)findViewById(R.id.scoreofprofile);
-        scoreofuser.setText(String.valueOf(user.getScore()));
+        scoreofuser.setText(String.valueOf(user.getMathScore()));
+        Engscoreofuser=(TextView)findViewById(R.id.Engscore);
+        Engscoreofuser.setText(String.valueOf(user.getEngScore()));
         signout.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -76,6 +81,15 @@ public class profile extends AppCompatActivity {
         }
         propic.setImageURI(Uri.parse(user.getProfilepic()));
         //=========================================================================
+        rank.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(profile.this,Rank.class);
+                it.putExtra("Users", user);
+                startActivity(it);
+                finish();
+            }
+        });
     }
     @Override
     public void onBackPressed()

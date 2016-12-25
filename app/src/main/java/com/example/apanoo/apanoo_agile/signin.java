@@ -49,7 +49,8 @@ public class signin extends AppCompatActivity {
                     Users user=new Users();
                     user.setUname(helper.GetColumn(username,"Username"));
                     user.setProfilepic(helper.GetColumn(user.getUname(),"ProfilePic"));
-                    user.setScore(Integer.parseInt(helper.GetColumn(user.getUname(),"Score")));
+                    user.setMathscore(Integer.parseInt(helper.GetColumn(user.getUname(),"MathScore")));
+                    user.setEngscore(Integer.parseInt(helper.GetColumn(user.getUname(),"EngScore")));
                     Intent i = new Intent(signin.this,welcome.class);
                     i.putExtra("Users", user);
                     startActivity(i);

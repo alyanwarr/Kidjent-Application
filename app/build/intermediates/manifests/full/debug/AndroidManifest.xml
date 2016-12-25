@@ -34,6 +34,8 @@
         <activity android:name="com.example.apanoo.apanoo_agile.profile" />
         <activity android:name="com.example.apanoo.apanoo_agile.categories" />
         <activity android:name="com.example.apanoo.apanoo_agile.MathGame" />
+        <activity android:name="com.example.apanoo.apanoo_agile.EnglishGame" />
+        <activity android:name="com.example.apanoo.apanoo_agile.Rank" />
     </application>
 
 </manifest>
