@@ -63,34 +63,6 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
 
-        <customfonts.MyTextView
-            android:id="@+id/myTextView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Score :"
-            android:textColor="@android:color/holo_orange_dark"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="30sp"
-            android:layout_marginBottom="58dp"
-            android:layout_above="@+id/signout"
-            android:layout_toLeftOf="@+id/propic"
-            android:layout_toStartOf="@+id/propic"
-            android:layout_marginRight="12dp"
-            android:layout_marginEnd="12dp" />
-
-        <TextView
-            android:text="0"
-            android:textSize="30sp"
-            android:id="@+id/scoreofprofile"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:textColor="@android:color/background_light"
-            android:layout_alignBaseline="@+id/myTextView2"
-            android:layout_alignBottom="@+id/myTextView2"
-            android:layout_alignLeft="@+id/propic"
-            android:layout_alignStart="@+id/propic" />
-
         <ImageView
             android:id="@+id/propic"
             android:layout_height="150dp"
@@ -113,6 +85,72 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="200dp" />
 
+        <TextView
+            android:text="0"
+            android:textSize="30sp"
+            android:id="@+id/scoreofprofile"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/background_light"
+            android:layout_below="@+id/usernameprof"
+            android:layout_alignLeft="@+id/propic"
+            android:layout_alignStart="@+id/propic"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Engscore"
+            android:textSize="30sp"
+            android:textColor="@android:color/background_light"
+            android:layout_above="@+id/scoreofprofile"
+            android:layout_alignLeft="@+id/scoreofprofile"
+            android:layout_alignStart="@+id/scoreofprofile" />
+
+        <customfonts.MyTextView
+            android:id="@+id/myTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Math :"
+            android:textColor="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginBottom="57dp"
+            android:layout_above="@+id/signout"
+            android:layout_toLeftOf="@+id/signout"
+            android:layout_toStartOf="@+id/signout" />
+
+        <customfonts.MyTextView
+            android:id="@+id/myTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English :"
+            android:textColor="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_above="@+id/myTextView2"
+            android:layout_alignLeft="@+id/myTextView2"
+            android:layout_alignStart="@+id/myTextView2" />
+
+        <customfonts.MyTextView
+            android:id="@+id/Rank"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect"
+            android:text="Rank"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_alignTop="@+id/back"
+            android:layout_toRightOf="@+id/signout"
+            android:layout_toEndOf="@+id/signout" />
     </RelativeLayout>
 
 </FrameLayout>

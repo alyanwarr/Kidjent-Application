@@ -9,14 +9,12 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.Random;
 
-import customfonts.MyTextView;
+//import static com.example.apanoo.apanoo_agile.R.styleable.View;
 
 /**
  * Created by APANOO on 1/12/2016.
@@ -73,15 +71,15 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
         Choice2.setOnClickListener(this);
         Choice3.setOnClickListener(this);
         Choice4.setOnClickListener(this);
-        returne = (LinearLayout)findViewById(R.id.playreturn);
+        returne = (LinearLayout)findViewById(R.id.mathreturn);
         returne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(MathGame.this,categories.class);
-                int oldscore = user.getScore();
-                int newscore = user.getScore() + Gamescore;
-                user.setScore(newscore);
-                helper.Update_Score(user.getUname(), oldscore, newscore);
+                int oldscore = user.getMathScore();
+                int newscore = user.getMathScore() + Gamescore;
+                user.setMathscore(newscore);
+                helper.Update_MathScore(user.getUname(), oldscore, newscore);
                 it.putExtra("Users", user);
                 startActivity(it);
                 finish();
@@ -143,87 +141,6 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
         }
     }
 
-    /*void ChoicesAssign(int result, String unknown) {
-        int randresult;
-        Random r = new Random();
-        int randchoice = r.nextInt(5 - 1) + 1;
-        System.out.println("Choice:" + randchoice);
-        switch (randchoice) {
-            case 1:
-                Choice1.setText(String.valueOf(result));
-                do {
-                    randresult = choicesGen(unknown);
-                    if (randresult != result)
-                        Choice2.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice2.getText().toString())))
-                        Choice3.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice2.getText().toString())) && (randresult != Integer.parseInt(Choice3.getText().toString())))
-                        Choice4.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                break;
-            case 2:
-                Choice2.setText(String.valueOf(result));
-                do {
-                    randresult = choicesGen(unknown);
-                    if (randresult != result)
-                        Choice1.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice1.getText().toString())))
-                        Choice3.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice1.getText().toString())) && (randresult != Integer.parseInt(Choice3.getText().toString())))
-                        Choice4.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                break;
-            case 3:
-                Choice3.setText(String.valueOf(result));
-                randresult = choicesGen(unknown);
-                do {
-                    if (randresult != result)
-                        Choice1.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice1.getText().toString())))
-                        Choice2.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice1.getText().toString())) && (randresult != Integer.parseInt(Choice2.getText().toString())))
-                        Choice4.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                break;
-            case 4:
-                Choice4.setText(String.valueOf(result));
-
-                do {
-                    randresult = choicesGen(unknown);
-                    if (randresult != result)
-                        Choice1.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice1.getText().toString())))
-                        Choice2.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                do {
-                    randresult = choicesGen(unknown);
-                    if ((randresult != result) && (randresult != Integer.parseInt(Choice1.getText().toString())) && (randresult != Integer.parseInt(Choice2.getText().toString())))
-                        Choice3.setText(String.valueOf(randresult));
-                } while (randresult == result);
-                break;
-        }
-    }*/
     void ChoicesAssign(int result, String unknown) {
         Random r = new Random();
         int resultchoice = r.nextInt(4)+1;
@@ -330,10 +247,10 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
     public void onBackPressed() {
         super.onBackPressed();
         Intent it = new Intent(MathGame.this, categories.class);
-        int oldscore = user.getScore();
-        int newscore = user.getScore() + Gamescore;
-        user.setScore(newscore);
-        helper.Update_Score(user.getUname(), oldscore, newscore);
+        int oldscore = user.getMathScore();
+        int newscore = user.getMathScore() + Gamescore;
+        user.setMathscore(newscore);
+        helper.Update_MathScore(user.getUname(), oldscore, newscore);
         it.putExtra("Users", user);
         finish();
         startActivity(it);
@@ -383,20 +300,16 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
     }
 
     public void IncorrectAns(TextView choice) {
-       // choice.setTextColor(Color.RED);
-       // choice.setClickable(false);
-       // choice.setPaintFlags(choice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        choice.setTextColor(Color.RED);
         life--;
-
-
         if (life == 0) {
             Toast Death = Toast.makeText(MathGame.this, "You ran out of lifes", Toast.LENGTH_SHORT);
             Death.show();
             Intent it = new Intent(MathGame.this, categories.class);
-            int oldscore = user.getScore();
-            int newscore = user.getScore() + Gamescore;
-            user.setScore(newscore);
-            helper.Update_Score(user.getUname(), oldscore, newscore);
+            int oldscore = user.getMathScore();
+            int newscore = user.getMathScore() + Gamescore;
+            user.setMathscore(newscore);
+            helper.Update_MathScore(user.getUname(), oldscore, newscore);
             it.putExtra("Users", user);
             finish();
             startActivity(it);
@@ -407,14 +320,12 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
             newQuestion(choice);
 
         lifes.setText(String.valueOf(life));}
-
-
     }
 
     public void CorrectAns(TextView choice) {
         Gamescore++;
         score.setText(String.valueOf(Gamescore));
-
+        choice.setTextColor(Color.GREEN);
         newQuestion(choice);
     }
 
@@ -430,6 +341,7 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                 Result.setText(choice.getText().toString());
                 break;
         }
+        final TextView choice1=choice;
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -437,6 +349,7 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
                 // Do something after 1s = 1000ms
 
                 ResetAllChoices();
+                choice1.setTextColor(Color.WHITE);
                 lifes.setText(String.valueOf(life));
                 unknown = unknownRand();
                 System.out.println("Unknown :" + unknown);
@@ -446,7 +359,7 @@ public class MathGame extends AppCompatActivity implements View.OnClickListener 
 
             }
         }, 500);
-
+        choice=choice1;
     }
 
     private void ResetAllChoices() {

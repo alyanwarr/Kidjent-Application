@@ -1,7 +1,7 @@
-#Mon Dec 05 13:59:45 EET 2016
-base.0=C\:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5512eee470108925557dbc9816d1e1c0d03a7ffb
+#Fri Dec 23 20:24:45 EET 2016
+base.0=C\:\\Users\\omar_adel\\Desktop\\APANOO-Agile-master\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b5cd2b301704c0e2d662774c4002b8ed3ccc8d67
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9ecf35579c7673b8cc8435a0bd25ad9f8aeb8633\\classes.dex
-base.1=C\:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9ecf35579c7673b8cc8435a0bd25ad9f8aeb8633
-file.0=C\:\\Users\\omar_adel\\Documents\\GitHub\\APANOO-Agile\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5512eee470108925557dbc9816d1e1c0d03a7ffb\\classes.dex
+file.1=C\:\\Users\\omar_adel\\Desktop\\APANOO-Agile-master\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bc50f5552b7a4ad83f88c8feb0c280c69bf2ffb9\\classes.dex
+base.1=C\:\\Users\\omar_adel\\Desktop\\APANOO-Agile-master\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bc50f5552b7a4ad83f88c8feb0c280c69bf2ffb9
+file.0=C\:\\Users\\omar_adel\\Desktop\\APANOO-Agile-master\\APANOO-Agile-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b5cd2b301704c0e2d662774c4002b8ed3ccc8d67\\classes.dex

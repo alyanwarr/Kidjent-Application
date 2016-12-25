@@ -5,47 +5,33 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="60601558930576"
-    token="541343342688340893"
-    verifier="METHOD_ADDED" >
+    timestamp="169236771184716"
+    token="3762183626654205051"
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="694" />
+        duration="11935" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="103" />
+        duration="10855" />
     <task
         name="verifier"
-        duration="25" />
+        duration="733" />
 
     <artifact
-        location="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
+        location="C:\Users\omar_adel\Desktop\APANOO-Agile-master\APANOO-Agile-master\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="53134807688222"
+        timestamp="169236771184716"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\omar_adel\Desktop\APANOO-Agile-master\APANOO-Agile-master\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="56736515231325"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="60601558930576"
-        verifier="METHOD_ADDED" >
-        <artifact
-            location="C:\Users\omar_adel\Documents\GitHub\APANOO-Agile\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

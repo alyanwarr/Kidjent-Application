@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import customfonts.MyTextView;
 
 /**
- * Created by omar_adel on 11/22/2016.
+ * Created by APANOO on 11/22/2016.
  */
 
 public class categories extends AppCompatActivity {
@@ -44,6 +44,15 @@ public class categories extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent it=new Intent(categories.this,MathGame.class);
+                it.putExtra("Users", user);
+                startActivity(it);
+                finish();
+            }
+        });
+        English.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent it=new Intent(categories.this,EnglishGame.class);
                 it.putExtra("Users", user);
                 startActivity(it);
                 finish();

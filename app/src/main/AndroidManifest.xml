@@ -25,6 +25,8 @@
         <activity android:name=".profile"></activity>
         <activity android:name=".categories"></activity>
         <activity android:name=".MathGame"></activity>
+        <activity android:name=".EnglishGame"></activity>
+        <activity android:name=".Rank"></activity>
     </application>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 </manifest>

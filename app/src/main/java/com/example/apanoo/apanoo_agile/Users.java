@@ -10,7 +10,8 @@ import android.os.Parcelable;
 public class Users implements Parcelable{
 
     String email, uname, pass,profilepic;
-    int score;
+    int Mathscore;
+    int Engscore;
     protected Users() {
 
     }
@@ -20,7 +21,8 @@ public class Users implements Parcelable{
         uname = in.readString();
         pass = in.readString();
         profilepic = in.readString();
-        score=in.readInt();
+        Mathscore=in.readInt();
+        Engscore=in.readInt();
     }
 
     public static final Creator<Users> CREATOR = new Creator<Users>() {
@@ -75,14 +77,24 @@ public class Users implements Parcelable{
         return this.profilepic;
 
     }
-    public void setScore(int score)
+    public void setMathscore(int score)
     {
-        this.score=score;
+        this.Mathscore=score;
 
     }
-    public int getScore()
+    public int getMathScore()
     {
-        return this.score;
+        return this.Mathscore;
+
+    }
+    public void setEngscore(int score)
+    {
+        this.Engscore=score;
+
+    }
+    public int getEngScore()
+    {
+        return this.Engscore;
 
     }
 
@@ -97,7 +109,8 @@ public class Users implements Parcelable{
         parcel.writeString(uname);
         parcel.writeString(pass);
         parcel.writeString(profilepic);
-        parcel.writeInt(score);
+        parcel.writeInt(Mathscore);
+        parcel.writeInt(Engscore);
     }
 }
 

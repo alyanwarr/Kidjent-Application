@@ -53,7 +53,6 @@ public class welcome extends AppCompatActivity {
                 finish();
             }
         });
-
     }
     @Override
     protected void onStart(){
